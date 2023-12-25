@@ -8,7 +8,10 @@
     <!--MENÚ GENERAL -->
     <string name="exponente">Exponencial</string>
     <string name="conversion">Conversión</string>
-    <string name="areas">Áreas</string>
+    <string name="areas">Área</string>
     <string name="raiz">Raíz</string>
+    <string name="atras">Regresar</string>
+    <string name="noticias">Noticias</string>
+
 
 </resources>

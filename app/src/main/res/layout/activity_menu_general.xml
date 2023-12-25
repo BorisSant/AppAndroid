@@ -59,23 +59,41 @@
             android:id="@+id/btnExponente"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/exponente"/>
+            android:text="@string/exponente"
+            android:backgroundTint="@color/botones"/>
         <Button
             android:id="@+id/btnConversion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/conversion"/>
+            android:text="@string/conversion"
+            android:backgroundTint="@color/botones"/>
         <Button
             android:id="@+id/btnAreas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/areas"/>
+            android:text="@string/areas"
+            android:backgroundTint="@color/botones"/>
 
         <Button
             android:id="@+id/btnRaices"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/raiz"/>
+            android:text="@string/raiz"
+            android:backgroundTint="@color/botones"/>
+        <Button
+            android:id="@+id/btnNoticias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/noticias"
+            android:backgroundTint="@color/botones"/>
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/atras"
+            android:backgroundTint="@color/boton_atras"
+            android:textColor="@color/textoBoton"/>
+
     </LinearLayout>
 
 
