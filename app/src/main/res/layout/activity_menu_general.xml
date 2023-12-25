@@ -67,12 +67,6 @@
             android:layout_height="wrap_content"
             android:text="@string/conversion"
             android:backgroundTint="@color/botones"/>
-        <Button
-            android:id="@+id/btnAreas"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/areas"
-            android:backgroundTint="@color/botones"/>
 
         <Button
             android:id="@+id/btnRaices"

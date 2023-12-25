@@ -10,4 +10,5 @@
     <color name="botones">#5D6D7E</color>
     <color name="boton_atras">#E74C3C</color>
     <color name="textoBoton">#FFFFFFFF</color>
+    <color name="title_text">#FF8D8E98</color>
 </resources>

@@ -12,6 +12,16 @@
     <string name="raiz">Raíz</string>
     <string name="atras">Regresar</string>
     <string name="noticias">Noticias</string>
+    <!--Exponentes -->
+    <string name="titulo_Expo">Operaciones exponenciales</string>
+    <string name="texto_Por_Defecto">2</string>
+    <string name="place_base">Ingrese un número</string>
+    <string name="titulo_exponente">Exponente</string>
+    <string name="calcular">Calcular</string>
+    <string name="titulo_numero_base">Número base</string>
+    <string name="resultado_titulo">RESULTADO</string>
+    <string name="resultado">....</string>
+    <string name="operacion_text">Operación exitosa!</string>
 
 
 </resources>
