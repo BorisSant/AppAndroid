@@ -5,11 +5,10 @@
     <string name="bienvenida">Bienvenido a CalInfo</string>
     <string name="pedirNombre">Por favor ayúdame a conocerte!</string>
     <string name="placeNombre">Ingresa tu nombre</string>
-    <string name="mujer">Mujer</string>
-    <string name="altura">Altura</string>
-    <string name="edad">Edad</string>
-    <string name="peso">Peso</string>
-    <string name="calcular">Calcular</string>
-    <string name="resultado">Resultado</string>
-    <string name="reCalcular">Volver a Calcular</string>
+    <!--MENÚ GENERAL -->
+    <string name="exponente">Exponencial</string>
+    <string name="conversion">Conversión</string>
+    <string name="areas">Áreas</string>
+    <string name="raiz">Raíz</string>
+
 </resources>
