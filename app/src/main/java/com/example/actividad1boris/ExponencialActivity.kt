@@ -49,8 +49,9 @@ class ExponencialActivity : AppCompatActivity() {
             base=edtNumeroBase.text.toString()
 
             val resul:Double = calcularExpo()
+            val resulInt:Int=resul.toInt()
             val intent = Intent(this,ResultadoExponencialActivity::class.java)
-            intent.putExtra("Resultado",resul.toString())
+            intent.putExtra("Resultado",resulInt.toString())
             startActivity(intent)
         }
 
