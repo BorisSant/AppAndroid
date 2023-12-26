@@ -40,7 +40,10 @@ class MenuGeneralActivity : AppCompatActivity() {
             Log.i("MENU --------- ","LANZAMOS EXPONENCIAL APP")
             navegarHaciaApp(ExponencialActivity::class.java)
         }
-
+        btnRaices.setOnClickListener {
+            Log.i("MENU --------- ","LANZAMOS RAICES APP")
+            navegarHaciaApp(RaizActivity::class.java)
+        }
 
         // hacia atrás
         btnRegresar.setOnClickListener {

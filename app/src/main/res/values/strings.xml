@@ -23,5 +23,10 @@
     <string name="resultado">....</string>
     <string name="operacion_text">Operación exitosa!</string>
 
+    <!--Raiz -->
+    <string name="titulo_raiz">Operación de raices</string>
+    <string name="place_raiz">raíz</string>
+    <string name="valor_raiz">número</string>
+
 
 </resources>
