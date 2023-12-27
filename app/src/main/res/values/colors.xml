@@ -12,5 +12,6 @@
     <color name="textoBoton">#FFFFFFFF</color>
     <color name="title_text">#FF8D8E98</color>
     <color name="noticias">#16A085</color>
-    <color name="back_noticia">#BFC9CA</color>
+    <color name="text_boton_noticia">#16A085</color>
+    <color name="back_noticia">#616A6B</color>
 </resources>

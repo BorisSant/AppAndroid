@@ -29,6 +29,7 @@ class ExponencialActivity : AppCompatActivity() {
     }
 
 
+    //Inicializamos componentes
     private fun initComponentes(){
         txtExponente=findViewById(R.id.txtExponente)
         txtExponente.text="${exponente.toString()}"
@@ -41,28 +42,31 @@ class ExponencialActivity : AppCompatActivity() {
     private fun initListener(){
 
         rngExponente.addOnChangeListener { slider, value, fromUser ->
-            exponente=value.toInt()
-            txtExponente.text="${exponente.toString()}"
+            exponente=value.toInt() // extraemos el valor que seleccionó el usuario
+            txtExponente.text="${exponente.toString()}" // mostramos el valor actualizado
         }
         //Calculo del exponente
         btnCalcular.setOnClickListener{
             base=edtNumeroBase.text.toString()
 
+            // Obtenemos la respuesta del cálculo
             val resul:Double = calcularExpo()
-            val resulInt:Int=resul.toInt()
+            val resulInt:Int=resul.toInt() // lo convertimos a entero
             val intent = Intent(this,ResultadoExponencialActivity::class.java)
-            intent.putExtra("Resultado",resulInt.toString())
+            intent.putExtra("Resultado",resulInt.toString()) // pasamos el dato para hacer uso de ella en el otro activity
             startActivity(intent)
         }
 
-        // hacia atrás
+        // hacia atrás, me lleva a pantalla anterior
         btnRegresar.setOnClickListener {
+            // onBackPressed quedó obsoleto, pero aún se lo puede usar con la ayuda de onBackPressedDispatcher
             onBackPressedDispatcher.onBackPressed()
         }
     }
 
 
     private fun calcularExpo(): Double {
+        // convertimos a double porque la función .pow trabaja con valores de tipo Double
         val baseDouble: Double = base.toDouble()
         val exponenteDouble: Double = exponente.toDouble()
         val resultado=Math.pow(baseDouble,exponenteDouble)

@@ -12,12 +12,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Inicializamos componentes
         val btnIniciar= findViewById<Button>(R.id.btnIniciar)
         val edtNombre=findViewById<EditText>(R.id.edtNombre)
 
+        //Eventos
         btnIniciar.setOnClickListener {
+            //Redirige al menú de opciones para selección de operaciones
             val intent = Intent(this, MenuGeneralActivity::class.java)
-            // Pasar el nombre que ingresa el usuario
+            // Pasar el nombre que ingresa el usuario, esto con la finalidad de ganar mayor confianza con el usuario
             intent.putExtra("texto",edtNombre.text.toString())
             startActivity(intent)
         }

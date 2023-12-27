@@ -13,7 +13,7 @@ class RaizActivity : AppCompatActivity() {
     // variables de calculo
     private lateinit var numRaiz:String
     private lateinit var valor:String
-    //componentes
+    //declaración de componentes
     private lateinit var btnRegresar: Button
     private lateinit var btnCalcular: Button
     private lateinit var edtNumRaiz:EditText
@@ -24,12 +24,15 @@ class RaizActivity : AppCompatActivity() {
         initComponentes()
         initListener()
     }
+
+    //Inicializar componentes
     private fun initComponentes(){
         btnCalcular=findViewById(R.id.btnCalcular)
         btnRegresar=findViewById(R.id.btnRegresar)
         edtNumRaiz=findViewById(R.id.edtNumRaiz)
         edtValor=findViewById(R.id.edtValor)
     }
+    //Eventos
     private fun initListener(){
         // hacia atrás
         btnRegresar.setOnClickListener {
@@ -45,6 +48,7 @@ class RaizActivity : AppCompatActivity() {
         }
     }
 
+    // Cálculo de la operación
     private fun calcularExpo(): Double {
         val raizDouble: Double = numRaiz.toDouble()
         val valorDouble: Double = valor.toDouble()

@@ -60,12 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/exponente"
-            android:backgroundTint="@color/botones"/>
-        <Button
-            android:id="@+id/btnConversion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/conversion"
+            android:textColor="@color/textoBoton"
             android:backgroundTint="@color/botones"/>
 
         <Button
@@ -73,12 +68,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/raiz"
+            android:textColor="@color/textoBoton"
             android:backgroundTint="@color/botones"/>
         <Button
             android:id="@+id/btnNoticias"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/noticias"
+            android:textColor="@color/text_boton_noticia"
             android:backgroundTint="@color/botones"/>
         <Button
             android:id="@+id/btnRegresar"

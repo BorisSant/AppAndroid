@@ -7,6 +7,7 @@ import android.widget.TextView
 
 class ResultadoExponencialActivity : AppCompatActivity() {
 
+    // declaración de componentes
     private lateinit var btnRegresar: Button
     private lateinit var txtResultado: TextView
     private lateinit var txtOperacion:TextView
@@ -20,18 +21,21 @@ class ResultadoExponencialActivity : AppCompatActivity() {
     }
 
 
+    // Inicialización de componentes
     private fun initComponentes(){
         txtResultado=findViewById(R.id.txtResultado)
         btnRegresar =findViewById(R.id.btnRegresar)
         txtOperacion=findViewById(R.id.txtOperacion)
     }
 
+    //Eventos
     private fun initListener(){
         btnRegresar.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
         }
     }
 
+    // Mostrar respuesta obtenida
     private fun recibirRespuesta(){
         val respuesta:String=intent.extras?.getString("Resultado").orEmpty()
         if (respuesta.isNotEmpty()){
