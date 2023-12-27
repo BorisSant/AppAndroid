@@ -1,0 +1,21 @@
+{
+    "data":{
+        "noticias":[
+            {
+                "noticia":"José Manuel Reyes Villafuerte: ganó la categoría Grand Champions (Gran Campeón) en el Mundial de Aritmética Aloha 2023"
+            },
+            {
+                "noticia":"Ingrid Daubechies: Premio Wolf de Matemáticas 2023"
+            },
+            {
+                "noticia":"Universidad de Bristol: el movimiento de difusión a través del material permeable se puede modelar exactamente"
+            },
+            {
+                "noticia":"Nikolai Nikolayevich Andreev: el movimiento de difusión a través del material permeable se puede modelar exactamente"
+            },
+            {
+                "noticia":"Espacio-tiempo: la comunidad científica ha detectado ondas gravitacionales de baja frecuencia moviéndose a través de la galaxia"
+            }
+        ]
+    }
+}
