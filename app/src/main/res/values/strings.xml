@@ -28,5 +28,8 @@
     <string name="place_raiz">raíz</string>
     <string name="valor_raiz">número</string>
 
+    <!--Noticias-->
+    <string name="encabezado_noticias">Últimas novedades</string>
+    <string name="subtitulo_noticias">Destacados</string>
 
 </resources>

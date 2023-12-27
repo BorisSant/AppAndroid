@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.Actividad1Boris" parent="Base.Theme.Actividad1Boris" />
+
+    <style name="SubTituloNoticias">
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/noticias</item>
+    </style>
+
 </resources>
